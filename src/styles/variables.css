@@ -1,0 +1,12 @@
+:root {
+  --main-color: #555;
+  --secondary-color: #222;
+  --title-color: #000;
+  --buttons-background-color: #402f2c;
+  --white-color: #fff;
+  --footer-background: #fafafa;
+  --header-background: #f9f6f5;
+  --background: #fdf8f5;
+  --placeholder: #999;
+  --border-color: #ddd;
+}

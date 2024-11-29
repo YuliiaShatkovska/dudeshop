@@ -1,0 +1,163 @@
+.reviews {
+  margin-bottom: 60px;
+
+  @media screen and (min-width: 700px) {
+    margin-bottom: 80px;
+  }
+
+  @media screen and (min-width: 1440px) {
+    margin-bottom: 130px;
+  }
+}
+
+.reviews_wrap {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+
+  @media screen and (min-width: 700px) {
+    flex-direction: row;
+  }
+
+  @media screen and (min-width: 1440px) {
+    gap: 40px;
+  }
+}
+
+.reviews_photo_wrap {
+  width: 260px;
+
+  margin: 0 auto;
+
+  @media screen and (min-width: 700px) {
+    width: 300px;
+  }
+
+  @media screen and (min-width: 1440px) {
+    width: 580px;
+  }
+}
+
+.photo {
+  width: 100%;
+}
+
+.reviews_text_wrap {
+  @media screen and (min-width: 700px) {
+    max-width: 300px;
+  }
+
+  @media screen and (min-width: 1440px) {
+    padding-top: 50px;
+    max-width: 600px;
+  }
+}
+
+.review_stars_list {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+
+  @media screen and (min-width: 700px) {
+    gap: 10px;
+  }
+}
+
+.star_icon {
+  width: 16px;
+  height: 16px;
+
+  @media screen and (min-width: 700px) {
+    width: 20px;
+    height: 20px;
+  }
+
+  @media screen and (min-width: 1440px) {
+    width: 24px;
+    height: 24px;
+  }
+}
+
+.review_title_box {
+  margin-bottom: 30px;
+
+  @media screen and (min-width: 700px) {
+    margin-bottom: 40px;
+  }
+}
+
+.review_title {
+  color: var(--secondary-color);
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 30px;
+
+  margin-bottom: 12px;
+
+  @media screen and (min-width: 700px) {
+    font-size: 30px;
+    line-height: 40px;
+  }
+}
+
+.review_text {
+  color: var(--main-color);
+
+  margin-bottom: 50px;
+
+  position: relative;
+
+  @media screen and (min-width: 1440px) {
+    font-size: 20px;
+    line-height: 32px;
+
+    margin-bottom: 80px;
+  }
+}
+
+.review_owner {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.name {
+  color: #222;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 30px;
+
+  @media screen and (min-width: 700px) {
+    font-size: 30px;
+    line-height: 40px;
+  }
+}
+
+.work {
+  color: var(--main-color);
+
+  @media screen and (min-width: 700px) {
+    font-size: 20px;
+    line-height: 24px;
+  }
+}
+
+.open_quote {
+  position: absolute;
+  top: -5px;
+  left: -16px;
+}
+
+.close_quote {
+  position: absolute;
+
+  @media screen and (min-width: 700px) {
+    /* bottom: 5px;
+    right: 162px; */
+  }
+
+  @media screen and (min-width: 1440px) {
+    bottom: 5px;
+ 
+  }
+}

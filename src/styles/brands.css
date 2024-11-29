@@ -1,0 +1,40 @@
+.brands {
+  padding-top: 42px;
+  padding-bottom: 42px;
+
+  margin-bottom: 60px;
+
+  @media screen and (min-width: 700px) {
+    margin-bottom: 80px;
+  }
+
+  @media screen and (min-width: 1440px) {
+    margin-bottom: 130px;
+  }
+}
+
+.brands_list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+
+  @media screen and (min-width: 700px) {
+    gap: 20px;
+  }
+  @media screen and (min-width: 1440px) {
+    flex-wrap: nowrap;
+    column-gap: 120px;
+  }
+}
+
+.brands_item {
+  width: 90px;
+}
+
+.brands_icon {
+  width: 100%;
+}
+
+

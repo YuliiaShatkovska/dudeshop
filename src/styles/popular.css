@@ -1,0 +1,237 @@
+.popular {
+  margin-bottom: 60px;
+
+  @media screen and (min-width: 700px) {
+    margin-bottom: 80px;
+  }
+
+  @media screen and (min-width: 1440px) {
+    margin-bottom: 130px;
+  }
+}
+
+.popular_image_box {
+  width: 260px;
+}
+
+.popular_image {
+  width: 100%;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+}
+
+.popular_title {
+  color: var(--title-color);
+  font-size: 36px;
+  font-weight: 500;
+  line-height: 40px;
+
+  text-align: center;
+  margin: 0 auto;
+
+  margin-bottom: 20px;
+
+  @media screen and (min-width: 700px) {
+    text-align: unset;
+    font-size: 46px;
+    line-height: 50px;
+    margin-inline: unset;
+  }
+
+  @media screen and (min-width: 1440px) {
+    font-size: 56px;
+    line-height: 70px;
+  }
+}
+
+.text_wrap {
+  margin-bottom: 60px;
+
+  @media screen and (min-width: 700px) {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+.popular_text {
+  color: var(--main-color);
+  font-size: 20px;
+  line-height: 32px;
+
+  text-align: center;
+  margin: 0 auto;
+
+  margin-bottom: 30px;
+
+  max-width: 400px;
+
+  @media screen and (min-width: 700px) {
+    text-align: unset;
+    margin-inline: unset;
+
+    margin-bottom: unset;
+  }
+
+  @media screen and (min-width: 900px) {
+    max-width: 500px;
+  }
+
+  @media screen and (min-width: 1440px) {
+    max-width: 700px;
+  }
+}
+
+.popular_discover {
+  color: var(--secondary-color);
+
+  font-weight: 500;
+
+  text-decoration-line: underline;
+
+  display: block;
+  text-align: center;
+  margin: 0 auto;
+
+  transition: transform 0.3s;
+
+  @media screen and (min-width: 700px) {
+    font-size: 18px;
+    text-align: unset;
+    margin-inline: unset;
+  }
+
+  @media screen and (min-width: 1440px) {
+    font-size: 24px;
+    line-height: 30px;
+  }
+}
+
+.popular_discover:hover {
+  transform: scale(1.1);
+}
+
+.popular_cards {
+  display: grid;
+  justify-items: center;
+  justify-content: center;
+  gap: 20px;
+  grid-template-columns: repeat(1, 1fr);
+
+  @media screen and (min-width: 700px) {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  @media screen and (min-width: 1440px) {
+    gap: 40px;
+  }
+}
+
+.popular_card {
+  border: 1px solid rgba(104, 90, 82, 0.19);
+
+  border-radius: 10px;
+
+  @media screen and (min-width: 1440px) {
+    width: 600px;
+  }
+}
+
+.card_image_box {
+  width: 100%;
+
+  margin-bottom: 20px;
+}
+
+.card_subtitle {
+  color: var(--secondary-color);
+  font-size: 26px;
+  font-weight: 500;
+  line-height: 30px;
+
+  margin-bottom: 16px;
+
+  @media screen and (min-width: 700px) {
+    font-size: 25px;
+    line-height: 35px;
+  }
+
+  @media screen and (min-width: 1440px) {
+    font-size: 40px;
+    line-height: 60px;
+  }
+}
+
+.card_text_block {
+  padding: 0 16px 16px;
+
+  @media screen and (min-width: 700px) {
+    padding: 0 24px 24px;
+  }
+
+  @media screen and (min-width: 1440px) {
+    padding: 0 32px 32px;
+  }
+}
+
+.card_desc {
+  color: var(--main-color);
+
+  margin-bottom: 20px;
+
+  @media screen and (min-width: 700px) {
+  }
+
+  @media screen and (min-width: 1440px) {
+    font-size: 20px;
+    line-height: 32px;
+
+    margin-bottom: 46px;
+  }
+}
+
+.card_bottom_wrap {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.card_buttons {
+  display: flex;
+
+  gap: 8px;
+}
+
+.cars_button {
+  padding: 10px;
+
+  color: var(--buttons-background-color);
+  font-weight: 500;
+
+  border: 1px solid rgba(104, 90, 82, 0.46);
+
+  border-radius: 10px;
+
+  transition: background-color 0.4s, color 0.3s;
+
+  @media screen and (min-width: 1440px) {
+    padding: 16px 32px;
+
+    font-size: 18px;
+    line-height: 24px;
+  }
+}
+
+.cars_button:hover {
+  background-color: var(--buttons-background-color);
+  color: var(--white-color);
+}
+
+.card_price {
+  color: var(--secondary-color);
+  font-weight: 500;
+
+  @media screen and (min-width: 1440px) {
+    font-size: 30px;
+    line-height: 32px;
+  }
+}

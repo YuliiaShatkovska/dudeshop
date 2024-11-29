@@ -1,0 +1,521 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/cosmetics.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dudeshop</title>
+
+    <link rel="stylesheet" href="./src/style.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+  </head>
+  <body>
+    <div class="top_container">
+      <div class="header_container">
+        <div class="container">
+          <header class="header">
+            <a href="#" class="logo">Dudeshape</a>
+
+            <nav class="navigation">
+              <ul class="navigation_list">
+                <li class="navigation_item">
+                  <a href="" class="navigation_link">Home</a>
+                </li>
+                <li>
+                  <a href="#products" class="navigation_link">Products</a>
+                </li>
+                <li>
+                  <a href="#about" class="navigation_link">About Us</a>
+                </li>
+                <li>
+                  <a href="" class="navigation_link">Contact Us</a>
+                </li>
+              </ul>
+            </nav>
+
+            <div class="header_buttons">
+              <a href="">
+                <img
+                  src="./src/images/icons/profile.svg"
+                  alt=""
+                  class="header_button"
+                />
+              </a>
+              <a href="">
+                <img
+                  src="./src/images/icons/buy.svg"
+                  alt=""
+                  class="header_button"
+                />
+              </a>
+            </div>
+
+            <button type="button" class="burger_button">
+              <img
+                src="./src/images/icons/burger.png"
+                alt="burger icon"
+                class="burger_icon"
+              />
+            </button>
+          </header>
+        </div>
+      </div>
+
+      <div class="container">
+        <div class="hero">
+          <div class="hero_text_wrap">
+            <h1 class="title">Get Your Best Cosmetic Products Here</h1>
+
+            <p class="hero_text">
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry. Lorem Ipsum has been the industry's standard dummy
+            </p>
+
+            <div class="hero_input_wrap">
+              <input type="text" class="hero_input" placeholder="Search..." />
+
+              <button type="button" class="search_btn">
+                <img
+                  src="./src/images/icons/search.png"
+                  alt=""
+                  class="search_icon"
+                />
+              </button>
+            </div>
+
+            <button type="button" class="shop_button">Shop now</button>
+          </div>
+
+          <div class="swiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <img
+                  src="./src/images/third.png"
+                  alt="soap"
+                  class="swiper-image"
+                  loading="lazy"
+                />
+              </div>
+              <div class="swiper-slide">
+                <img
+                  src="./src/images/second.png"
+                  alt="soap"
+                  class="swiper-image"
+                  loading="lazy"
+                />
+              </div>
+              <div class="swiper-slide">
+                <img
+                  src="./src/images/first.png"
+                  alt="soap"
+                  class="swiper-image"
+                  loading="lazy"
+                />
+              </div>
+            </div>
+
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="mobile_menu is-hidden">
+      <button type="button" class="button_close">
+        <img
+          src="./src/images/icons/close.png"
+          alt="close"
+          class="icon_close"
+        />
+      </button>
+
+      <div class="mobile_box">
+        <nav class="navigation mobile">
+          <ul class="navigation_list mobile">
+            <li class="navigation_item">
+              <a href="./index.html" class="navigation_link mobile">Home</a>
+            </li>
+            <li>
+              <a href="./index.html" class="navigation_link mobile">Products</a>
+            </li>
+            <li>
+              <a href="./index.html" class="navigation_link mobile">About Us</a>
+            </li>
+            <li>
+              <a href="./index.html" class="navigation_link mobile"
+                >Contact Us</a
+              >
+            </li>
+          </ul>
+        </nav>
+
+        <div class="mobile_buttons">
+          <button type="button" class="mobile_actions_btn">
+            <img src="./src/images/icons/profile.svg" alt="" />
+          </button>
+          <button type="button" class="mobile_actions_btn">
+            <img src="./src/images/icons/buy.svg" alt="" />
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <main>
+      <section class="brands">
+        <div class="container">
+          <ul class="brands_list">
+            <li class="brands_item">
+              <img
+                src="./src/images/icons/airbnb.png"
+                alt=""
+                class="brands_icon"
+              />
+            </li>
+            <li class="brands_item">
+              <img
+                src="./src/images/icons/hubspot.png"
+                alt=""
+                class="brands_icon"
+              />
+            </li>
+            <li class="brands_item">
+              <img
+                src="./src/images/icons/google.png"
+                alt=""
+                class="brands_icon"
+              />
+            </li>
+            <li class="brands_item">
+              <img
+                src="./src/images/icons/microsoft.png"
+                alt=""
+                class="brands_icon"
+              />
+            </li>
+            <li class="brands_item">
+              <img
+                src="./src/images/icons/walmart.png"
+                alt=""
+                class="brands_icon"
+              />
+            </li>
+            <li class="brands_item">
+              <img
+                src="./src/images/icons/fedex.png"
+                alt=""
+                class="brands_icon"
+              />
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="popular" id="products">
+        <div class="container">
+          <h2 class="popular_title">Our Porular Product</h2>
+
+          <div class="text_wrap">
+            <p class="popular_text">
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry. Lorem Ipsum has been the industry's standard dummy
+            </p>
+            <a href="" class="popular_discover"
+              >Discover Our Products
+              <span
+                ><img
+                  src="./src/images/icons/arrow.png"
+                  alt=""
+                  style="width: 16px" /></span
+            ></a>
+          </div>
+
+          <div class="popular_cards">
+            <aricle class="popular_card">
+              <div class="card_image_box">
+                <img
+                  src="./src/images/pump_bottle.png"
+                  alt="bootle of soap"
+                  class="popular_image"
+                  loading="lazy"
+                />
+              </div>
+
+              <div class="card_text_block">
+                <h3 class="card_subtitle">Cosmetic products</h3>
+                <p class="card_desc">
+                  Lorem Ipsum is simply dummy text of the printing and
+                  typesetting industry. Lorem Ipsum has been the industry's
+                  standard dummy
+                </p>
+
+                <div class="card_bottom_wrap">
+                  <div class="card_buttons">
+                    <button type="button" class="cars_button">Buy Now</button>
+                    <button type="button" class="cars_button">
+                      Add To Cart
+                    </button>
+                  </div>
+
+                  <p class="card_price">$120</p>
+                </div>
+              </div>
+            </aricle>
+            <aricle class="popular_card">
+              <div class="card_image_box">
+                <img
+                  src="./src/images/first.png"
+                  alt="botle of soap"
+                  class="popular_image"
+                  loading="lazy"
+                />
+              </div>
+
+              <div class="card_text_block">
+                <h3 class="card_subtitle">Cosmetic products</h3>
+                <p class="card_desc">
+                  Lorem Ipsum is simply dummy text of the printing and
+                  typesetting industry. Lorem Ipsum has been the industry's
+                  standard dummy
+                </p>
+
+                <div class="card_bottom_wrap">
+                  <div class="card_buttons">
+                    <button type="button" class="cars_button">Buy Now</button>
+                    <button type="button" class="cars_button">
+                      Add To Cart
+                    </button>
+                  </div>
+
+                  <p class="card_price">$120</p>
+                </div>
+              </div>
+            </aricle>
+          </div>
+        </div>
+      </section>
+
+      <section class="about_statistic" id="about">
+        <div class="container">
+          <div class="statistic_wrap">
+            <div class="statistic_box">
+              <p class="statistic_number">100%</p>
+              <p class="statistic_desc">Organic Products</p>
+            </div>
+
+            <div class="statistic_box">
+              <p class="statistic_number">2M+</p>
+              <p class="statistic_desc">Yearly Sales</p>
+            </div>
+
+            <div class="statistic_box">
+              <p class="statistic_number">1.9M+</p>
+              <p class="statistic_desc">Happy Customar</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="about_desc">
+        <div class="container">
+          <div class="about_wrap">
+            <div class="about_text_wrap">
+              <h2 class="about_title">The Perfect Beauty Of You</h2>
+
+              <div class="about_text_box">
+                <p>
+                  Lorem Ipsum is simply dummy text of the printing and
+                  typesetting industry. Lorem Ipsum has been the industry's
+                  standard dummy text ever since the 1500s, when an unknown
+                  printer took a galley of type and scrambled it to make a type
+                  specimen book.
+                </p>
+
+                <p>
+                  It has survived not only five centuries, but also the leap
+                  into electronic typesetting, remaining essentially unchanged.
+                  Lorem Ipsum is simply dummy text of the printing and
+                  typesetting industry.
+                </p>
+              </div>
+
+              <button type="button" class="shop_button">Shop now</button>
+            </div>
+
+            <div class="about_image_wrap">
+              <img
+                src="./src/images/second.png"
+                alt="bootle of rose soap"
+                class="about_image"
+                loading="lazy"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="reviews">
+        <div class="container">
+          <div class="reviews_wrap">
+            <div class="reviews_photo_wrap">
+              <img src="./src/images/girl.png" alt="girl" class="photo" />
+            </div>
+
+            <div class="reviews_text_wrap">
+              <div class="review_title_box">
+                <h3 class="review_title">Amazing Cosmetic</h3>
+
+                <ul class="review_stars_list">
+                  <li class="review_stars_item">
+                    <img
+                      src="./src/images/icons/full_star.png"
+                      alt="star"
+                      class="star_icon"
+                    />
+                  </li>
+                  <li class="review_stars_item">
+                    <img
+                      src="./src/images/icons/full_star.png"
+                      alt="star"
+                      class="star_icon"
+                    />
+                  </li>
+                  <li class="review_stars_item">
+                    <img
+                      src="./src/images/icons/full_star.png"
+                      alt="star"
+                      class="star_icon"
+                    />
+                  </li>
+                  <li class="review_stars_item">
+                    <img
+                      src="./src/images/icons/full_star.png"
+                      alt="star"
+                      class="star_icon"
+                    />
+                  </li>
+                  <li class="review_stars_item">
+                    <img
+                      src="./src/images/icons/star.png"
+                      alt="star"
+                      class="star_icon"
+                    />
+                  </li>
+                </ul>
+              </div>
+
+              <p class="review_text">
+                Lorem Ipsum is simply dummy text of the printing and typesetting
+                industry. Lorem Ipsum has been the industry's standard dummy
+                text ever since the 1500s, when an unknown printer took a galley
+                of type and scrambled it to make a type specimen book
+
+                <span class="open_quote">
+                  <img src="./src/images/icons/open_quote.svg" alt="" />
+                </span>
+
+                <span class="close_quote">
+                  <img src="./src/images/icons/close_quote.svg" alt="" />
+                </span>
+              </p>
+
+              <div class="review_owner">
+                <p class="name">Rusmin Islam</p>
+                <p class="work">Designer</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <section class="subscribe">
+        <div class="container">
+          <div class="subscribe_wrap">
+            <h2 class="subscribe_title">Subscribe to Get Our Letest News</h2>
+
+            <div class="input_wrap">
+              <input
+                type="email"
+                name="email"
+                placeholder="Enter email"
+                class="subscribe_input"
+              />
+
+              <button type="button" class="subscribe_button">Subscribe</button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <div class="footer_wrap">
+        <div class="footer_content_wrap">
+          <a href="" class="logo">Dudeshape</a>
+          <p class="footer_text">
+            Lorem Ipsum is simply dummy text of the printing and typesetting
+            industry. Lorem Ipsum has been the industry's standard dummy
+          </p>
+        </div>
+
+        <div class="footer_content_wrap">
+          <h3 class="footer_subtitle">Quick links</h3>
+
+          <ul class="footer_list">
+            <li>
+              <a href="index.html" class="footer_link">Home</a>
+            </li>
+            <li>
+              <a href="#products" class="footer_link">Products</a>
+            </li>
+            <li>
+              <a href="#about" class="footer_link">About Us</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="footer_content_wrap">
+          <h3 class="footer_subtitle">Contact Us</h3>
+
+          <div class="footer_list">
+            <a href="mailto:oyasimnaeem@email.com" class="footer_link"
+              >oyasimnaeem@email.com</a
+            >
+            <a href="tel:+123456789" class="footer_link">+123456789</a>
+
+            <div class="footer_soc_icons">
+              <a href="#" target="_blank">
+                <img
+                  src="src/images/icons/facebook.svg"
+                  alt="facebook"
+                  class="footer_soc_link"
+                />
+              </a>
+              <a href="#" target="_blank">
+                <img
+                  src="src/images/icons/twitter.svg"
+                  alt="twitter"
+                  class="footer_soc_link"
+                />
+              </a>
+              <a href="#" target="_blank">
+                <img
+                  src="src/images/icons/instagram.svg"
+                  alt="instagram"
+                  class="footer_soc_link"
+                />
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>

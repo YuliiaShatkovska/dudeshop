@@ -1,0 +1,61 @@
+@import "./styles/reset.css";
+@import "./styles/variables.css";
+@import "./styles/header.css";
+@import "./styles/mobile-menu.css";
+@import "./styles/hero.css";
+@import "./styles/brands.css";
+@import "./styles/popular.css";
+@import "./styles/about_statistic.css";
+@import "./styles/about_desc.css";
+@import "./styles/reviews.css";
+@import "./styles/subscribe.css";
+@import "./styles/footer.css";
+
+/* font_face */
+
+@font-face {
+  font-family: "Red Hat Display";
+  src: url(../src/fonts/RedHatDisplay-Regular.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: "Red Hat Display";
+  src: url(../src/fonts/RedHatDisplay-Regular.ttf) format("truetype");
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: "Red Hat Display";
+  src: url(../src/fonts/RedHatDisplay-Bold.ttf) format("truetype");
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Red Hat Display";
+  src: url(../src/fonts/RedHatDisplay-BoldItalic.ttf) format("truetype");
+  font-weight: 700;
+  font-style: italic;
+}
+
+body {
+  font-family: "Red Hat Display";
+  color: var(--main-color);
+  background-color: var(--white-color);
+}
+
+.container {
+  padding-inline: 30px;
+
+  @media screen and (min-width: 700px) {
+    padding-inline: 60px;
+  }
+
+  @media screen and (min-width: 1440px) {
+    padding-inline: 100px;
+  }
+}
+
+button:hover {
+  background-color: var(--secondary-color);
+}

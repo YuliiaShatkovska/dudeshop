@@ -1,0 +1,241 @@
+.hero {
+  padding-top: 100px;
+  padding-bottom: 50px;
+  display: flex;
+
+  flex-direction: column-reverse;
+  justify-content: space-between;
+
+  gap: 25px;
+
+  margin-bottom: 60px;
+
+  @media screen and (min-width: 700px) {
+    flex-direction: row;
+
+    margin-bottom: 80px;
+  }
+
+  @media screen and (min-width: 1440px) {
+    margin-bottom: 130px;
+    padding-top: 140px;
+  }
+}
+
+.hero_text_wrap {
+  @media screen and (min-width: 700px) {
+    max-width: 300px;
+  }
+
+  @media screen and (min-width: 1100px) {
+    max-width: 500px;
+  }
+
+  @media screen and (min-width: 1440px) {
+    max-width: 550px;
+  }
+}
+
+.title {
+  color: var(--title-color);
+
+  font-size: 36px;
+  font-weight: 500;
+  line-height: 40px;
+
+  max-width: 400px;
+  text-align: center;
+  margin: 0 auto;
+
+  margin-bottom: 20px;
+
+  @media screen and (min-width: 700px) {
+    text-align: unset;
+    font-size: 46px;
+    line-height: 50px;
+    margin-inline: unset;
+    max-width: unset;
+  }
+
+  @media screen and (min-width: 1440px) {
+    font-size: 56px;
+    line-height: 70px;
+    max-width: 600px;
+    margin-bottom: 30px;
+  }
+}
+
+.hero_text {
+  color: var(--main-color);
+  font-size: 18px;
+  line-height: 24px;
+  text-align: center;
+  margin: 0 auto;
+  max-width: 400px;
+  margin-bottom: 20px;
+
+  @media screen and (min-width: 700px) {
+    font-size: 20px;
+    line-height: 28px;
+    text-align: unset;
+    margin-inline: unset;
+    max-width: unset;
+    margin-bottom: 30px;
+  }
+
+  @media screen and (min-width: 1440px) {
+    line-height: 32px;
+  }
+}
+
+.hero_input_wrap {
+  position: relative;
+
+  margin: 0 auto;
+  width: 260px;
+
+  margin-bottom: 36px;
+
+  @media screen and (min-width: 700px) {
+    margin-inline: unset;
+  }
+
+  @media screen and (min-width: 1440px) {
+    margin-bottom: 60px;
+    width: 326px;
+  }
+}
+
+.hero_input {
+  padding: 14px 16px;
+  font-family: inherit;
+  width: 100%;
+  height: 36px;
+  border-radius: 20px;
+  border: 1px solid transparent;
+  outline: none;
+
+  @media screen and (min-width: 700px) {
+    height: 40px;
+  }
+
+  @media screen and (min-width: 1440px) {
+    height: 48px;
+  }
+}
+
+.hero_input:focus {
+  border-color: var(--secondary-color);
+}
+
+.hero_input::placeholder {
+  color: var(--placeholder);
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.search_btn {
+  position: absolute;
+  top: 4px;
+  right: 8px;
+  width: 28px;
+  height: 28px;
+
+  border-radius: 20px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background-color: var(--buttons-background-color);
+
+  @media screen and (min-width: 1440px) {
+    height: 32px;
+    width: 32px;
+    top: 8px;
+  }
+}
+
+.search_icon {
+  width: 16px;
+  height: 16px;
+}
+
+.shop_button {
+  padding: 16px 32px;
+
+  border-radius: 10px;
+
+  background-color: var(--buttons-background-color);
+
+  color: var(--white-color);
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 24px;
+
+  display: block;
+  margin: 0 auto;
+
+  @media screen and (min-width: 700px) {
+    margin-inline: unset;
+  }
+}
+
+.swiper {
+  position: relative;
+  border-radius: 20px;
+
+  width: 260px;
+  height: 280px;
+
+  @media screen and (min-width: 450px) {
+    width: 400px;
+  }
+
+  @media screen and (min-width: 700px) {
+    width: 300px;
+    margin: 0 !important;
+  }
+
+  @media screen and (min-width: 900px) {
+    width: 500px;
+    height: 400px;
+  }
+
+  @media screen and (min-width: 1440px) {
+    width: 700px;
+    height: 600px;
+  }
+}
+
+.swiper-wrapper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.swiper_buttons {
+  position: absolute;
+  bottom: 150px;
+}
+
+.swiper-button-next::after {
+  color: var(--main-color);
+  font-size: 20px !important;
+}
+
+.swiper-button-prev::after {
+  color: var(--main-color);
+  font-size: 20px !important;
+}
