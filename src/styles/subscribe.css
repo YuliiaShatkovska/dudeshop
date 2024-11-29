@@ -91,3 +91,7 @@
     padding: 10px 20px;
   }
 }
+
+.subscribe_button:hover {
+  background-color: var(--secondary-color);
+}

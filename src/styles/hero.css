@@ -156,6 +156,10 @@
   }
 }
 
+.search_btn:hover {
+  background-color: var(--secondary-color);
+}
+
 .search_icon {
   width: 16px;
   height: 16px;
@@ -179,6 +183,10 @@
   @media screen and (min-width: 700px) {
     margin-inline: unset;
   }
+}
+
+.shop_button:hover {
+  background-color: var(--secondary-color);
 }
 
 .swiper {

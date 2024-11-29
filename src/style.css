@@ -56,6 +56,4 @@ body {
   }
 }
 
-button:hover {
-  background-color: var(--secondary-color);
-}
+
