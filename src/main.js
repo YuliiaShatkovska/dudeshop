@@ -10,9 +10,6 @@ function openMenu() {
 
 closeMenuBtn.addEventListener("click", openMenu);
 
-const next = document.querySelector(".swiper-next");
-const prev = document.querySelector(".swiper-prev");
-
 const swiper = new Swiper(".swiper", {
   loop: true,
 
@@ -27,8 +24,8 @@ const swiper = new Swiper(".swiper", {
     delay: 3000,
   },
 
-  // keyboard: {
-  //   enabled: true,
-  //   onlyInViewport: false,
-  // },
+  keyboard: {
+    enabled: true,
+    onlyInViewport: false,
+  },
 });

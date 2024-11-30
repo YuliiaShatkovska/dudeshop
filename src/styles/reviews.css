@@ -151,13 +151,7 @@
 .close_quote {
   position: absolute;
 
-  @media screen and (min-width: 700px) {
-    /* bottom: 5px;
-    right: 162px; */
-  }
-
   @media screen and (min-width: 1440px) {
     bottom: 5px;
- 
   }
 }
